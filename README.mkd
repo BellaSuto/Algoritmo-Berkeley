@@ -1,5 +1,5 @@
 ## 🕰️ Algoritmo de Berkeley
-Trabalho prático da disciplina de Sistemas Distribuídos - UNIFAP
+### Trabalho prático da disciplina de Sistemas Distribuídos - UNIFAP
 #
  O algoritmo de Berkeley é um algoritmo utilizado para sincronizar relógios de um conjunto de computadores em uma rede. Ele funciona selecionando um relógio de referência para o qual os outros relógios na rede são ajustados. Em seguida, uma média ponderada é calculada com base nas diferenças entre os relógios e o relógio de referência, e os outros relógios são ajustados de acordo
 ***
