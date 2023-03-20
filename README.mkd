@@ -1,0 +1,17 @@
+## 🕰️ Algoritmo de Berkeley
+Trabalho prático da disciplina de Sistemas Distribuídos - UNIFAP
+#
+ O algoritmo de Berkeley é um algoritmo utilizado para sincronizar relógios de um conjunto de computadores em uma rede. Ele funciona selecionando um relógio de referência para o qual os outros relógios na rede são ajustados. Em seguida, uma média ponderada é calculada com base nas diferenças entre os relógios e o relógio de referência, e os outros relógios são ajustados de acordo
+***
+### No código:
+o tempo atual do relógio mestre é obtido utilizando o método Instant.now() da biblioteca java.time. Em seguida, uma lista de relógios é criada com alguns tempos fictícios para fins de demonstração.
+O relógio mestre é selecionado como o primeiro relógio na lista, e a média ponderada das diferenças de tempo entre os outros relógios e o relógio mestre é calculada. Em seguida, os relógios dos outros computadores na rede são ajustados de acordo com a média ponderada das diferenças de tempo
+
+### Exemplo de Saída:
+```console
+Relógios ajustados:
+2023-03-20T12:54:22.689674500Z
+2023-03-20T12:54:23.273007834Z
+2023-03-20T12:54:21.773007834Z
+2023-03-20T12:54:23.023007834Z
+```
